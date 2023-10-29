@@ -1,0 +1,148 @@
+body{
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: normal;
+    color: black;
+    line-height: 1.6 ;
+}
+*,
+*:before,
+*:after    {
+    box-sizing: border-box;
+}
+
+h1 h2 h3 h4 h5 h6 {
+    margin: 0;
+}
+.container{
+    width: 100% ;
+    max-width: 1200px;
+    margin: 0 auto ;
+}
+.header{
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    width: 100%; 
+  
+
+
+  }
+  nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+
+  }
+  .logo{
+  font-size: 36px;
+  font-weight: 700;
+  
+   
+  }
+  .nav_link{
+    padding:  28px 0;
+
+
+
+  }
+  .nav_link{
+    display: inline-block;
+    margin: 0 15px;
+    
+  }
+  .nav_links li a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 0;
+
+  }
+  
+
+.background{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+background-image: url(./Untitled.jpeg); 
+background-position: center;
+background-size: cover ;
+width: 100%;
+height: 100vh ;
+background-repeat: no-repeat ;
+
+
+}
+.title{
+
+    text-align: center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 48px;
+    color: white;
+
+}
+.border_box{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    left: 172.5px;
+    padding: 20px 30px;
+    width: 255px;
+    height: 75px;
+    justify-content: center;
+    align-items: center ;
+    border: 5px solid #d5c6be;
+    border-width: 2px;
+}
+h2{
+font-family: 'Plus Jakarta Sans', sans-serif;
+font-size: 78px;
+font-weight: 200;
+text-align: center;
+color: white;
+
+
+}
+
+.coders{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 68px;
+    font-weight: 800;
+    color: white;
+}
+
+
+.background_inner{
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center ;
+    }
+
+    /* Footer */
+    
+   .service{
+    text-align: center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #333;
+    font-size: 48px;
+
+   }
+   .our{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 200;
+    color: #333;
+   }
+   .paragraph{
+    font-size: 14px;
+    color: black;
+    text-transform: lowercase;
+    font-weight: 400;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    text-align: center;
+    
+   }
